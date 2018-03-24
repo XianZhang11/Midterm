@@ -45,7 +45,7 @@ def update_food(food_id, food=None, amount=None, calorie=None):
         object_id = ObjectId(food_id)
         current_foods.update_one({'_id': object_id}, update) 
     if calorie:
-        update = {'$set':{'amount':calorie}}
+        update = {'$set':{'calorie':calorie}}
         object_id = ObjectId(food_id)
         current_foods.update_one({'_id': object_id}, update)    
 

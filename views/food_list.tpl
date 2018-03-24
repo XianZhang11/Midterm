@@ -5,7 +5,7 @@
 <body onload="updatetable()">
 
 <div id="change" class="w3-margin">
-  <table id="foodtable">
+  <table id="foodtable" class ="w3-striped">
     <tr>
       <th>
         <div width=100 class="w3-card-4 w3-padding" style="min-width: 100px"> Food  </div>
@@ -81,7 +81,7 @@
         <td>
             <div  class="w3-card-4 w3-padding">
               
-                <input type = "image" src="/static/save-task.png">
+                <input type="image" src="/static/save-task.png">
               
             </div>
             
